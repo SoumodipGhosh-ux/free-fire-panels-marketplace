@@ -1,0 +1,122 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #090909;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 22px;
+  background: #160707;
+  border-bottom: 2px solid #ff2525;
+}
+
+header h1 {
+  color: #ff3030;
+  margin-bottom: 5px;
+}
+
+header p {
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.hero {
+  text-align: center;
+  padding: 65px 20px;
+  background: linear-gradient(135deg, #300808, #090909);
+}
+
+.hero h1 {
+  color: #ff3030;
+  font-size: 30px;
+}
+
+.hero p {
+  color: #ccc;
+}
+
+.main-btn, button {
+  display: inline-block;
+  background: #ed2020;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main {
+  padding: 25px 15px;
+}
+
+main h2 {
+  text-align: center;
+  color: #ff3030;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  max-width: 950px;
+  margin: 25px auto;
+}
+
+.product {
+  background: #191919;
+  border: 1px solid #552020;
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+}
+
+.product-icon {
+  font-size: 45px;
+}
+
+.product h3 {
+  color: #ff4545;
+}
+
+.product p {
+  color: #bbb;
+  min-height: 40px;
+}
+
+.product h2 {
+  color: white;
+}
+
+.product button {
+  width: 100%;
+}
+
+button:hover, .main-btn:hover {
+  background: #b90000;
+}
+
+.support {
+  text-align: center;
+  padding: 30px;
+  background: #170707;
+}
+
+.support h2 {
+  color: #ff3030;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  color: #888;
+  font-size: 12px;
+}
